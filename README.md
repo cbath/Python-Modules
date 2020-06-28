@@ -1,2 +1,2 @@
 # Python-Utils
-Utility functions used in across multiple applications
+Utility functions used across multiple applications
