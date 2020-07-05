@@ -1,3 +1,4 @@
+print('Loading init function...')
 #Change the width of a jupyter notebook
 from IPython.core.display import display, HTML
 display(HTML("<style>.container { width:80% !important; }</style>"))
@@ -19,7 +20,7 @@ from matplotlib.font_manager import FontProperties
 from pandas.plotting import scatter_matrix
 import seaborn as sns
 # Pretty display for notebooks
-%matplotlib inline
+#%matplotlib inline
 # Import supplementary visualizations code visuals.py
 #import visuals as vs
 
@@ -37,3 +38,5 @@ from sklearn.cluster import DBSCAN
 from sklearn import metrics
 from sklearn.datasets.samples_generator import make_blobs
 from sklearn.preprocessing import StandardScaler
+
+print('Loading init function...')   
