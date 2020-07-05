@@ -1,4 +1,4 @@
-#Change the width of the notebook
+#Change the width of a jupyter notebook
 from IPython.core.display import display, HTML
 display(HTML("<style>.container { width:80% !important; }</style>"))
 
@@ -11,6 +11,7 @@ from pandas.api.types import is_string_dtype
 from pandas.api.types import is_numeric_dtype
 #User counter to check frequencies (https://pymotw.com/2/collections/counter.html)
 from  collections import Counter
+import re
 
 #Visualisation Libraries
 import matplotlib.pyplot as plt
