@@ -41,4 +41,8 @@ from sklearn import metrics
 from sklearn.datasets.samples_generator import make_blobs
 from sklearn.preprocessing import StandardScaler
 
+#NLP Libraries
+import nltk
+#nltk.download()
+
 print('Loaded libraries')   
